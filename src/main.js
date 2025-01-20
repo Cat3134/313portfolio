@@ -52,7 +52,7 @@ document.querySelector("#app").innerHTML = `
           <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad4.png" target="_blank">
             <img src="./cadDrawings/cad4.png" alt="cube4" />
           </a>
-        </div>
+          </div>
 
           <h4 id="description">This Cadavre tackles the question of what it means to be a human. The collage highlights some of humanity's most significant creations, events, and scenes, aiming to represent what makes up a human. While each individual is a miracle of life themselves, the meaning of a human is to be everything we have ever seen, done, created, whether good or bad.</h4>
         </div>
