@@ -9,18 +9,18 @@ const cads = [
   "./cadDrawings/cad4.png",
 ];
 
-const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
-];
-
 const cubes = [
   "./cubeDrawings/cube1.webp",
   "./cubeDrawings/cube2.webp",
   "./cubeDrawings/cube3.webp",
   "./cubeDrawings/cube4.webp",
+];
+
+const trees = [
+  "./treeDrawings/tree1.jpg",
+  "./treeDrawings/tree2.jpg",
+  "./treeDrawings/tree3.jpg",
+  "./treeDrawings/tree4.jpg",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -32,29 +32,25 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Project 1: Cadavre Exquis
+      Cadavre Exquis
+      </br>
+      Project 1
         <div class="three-model">
           <img src="./cadDrawings/cad.png" id="model1" alt="Model 1 Image">
         </div>
-        <div id="images">
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad1.png" target="_blank">
-            <img src="./cadDrawings/cad1.png" alt="cube1" />
-          </a>
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad2.png" target="_blank">
-            <img src="./cadDrawings/cad2.png" alt="cube2" />
-          </a>
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad3.png" target="_blank">
-            <img src="./cadDrawings/cad3.png" alt="cube3" />
-          </a>
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad4.png" target="_blank">
-            <img src="./cadDrawings/cad4.png" alt="cube4" />
-          </a>
-        </div>
+        <div id="images-description">
+          <div id="images">
+            ${cads
+              .map(
+                (cad, index) => `<img src="${cad}" alt="cad${index + 1}" />`
+              )
+              .join("")}
+          </div>
           <h4 id="description">This Cadavre tackles the question of what it means to be a human. The collage highlights some of humanity's most significant creations, events, and scenes, aiming to represent what makes up a human. While each individual is a miracle of life themselves, the meaning of a human is to be everything we have ever seen, done, created, whether good or bad.</h4>
         </div>
       </div>
 
-      ${/* Model 2 commented out 
+      ${/* Model 2 commented out
       <div id="project-row">
       Model 2
         <div class="three-model">
@@ -91,8 +87,8 @@ document.querySelector("#app").innerHTML = `
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
       </div>
+      */""}
     </section>
-    */""}
 
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
@@ -108,6 +104,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-//createThreeScene("#model1", "/3DModels/project1/cube.obj");
-//createThreeScene("#model2", "/3DModels/project2/tree.obj");
-//createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+createThreeScene("#model1", "/3DModels/project1/cube.obj");
+createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model3", "/3DModels/project3/cottage.obj");
