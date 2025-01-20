@@ -2,11 +2,11 @@ import "./style.css";
 import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
-const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+const cads = [
+  "./cadDrawings/cad1.png",
+  "./cadDrawings/cad2.png",
+  "./cadDrawings/cad3.png",
+  "./cadDrawings/cad4.png",
 ];
 
 const trees = [
@@ -14,6 +14,13 @@ const trees = [
   "./treeDrawings/tree2.jpg",
   "./treeDrawings/tree3.jpg",
   "./treeDrawings/tree4.jpg",
+];
+
+const cubes = [
+  "./cubeDrawings/cube1.webp",
+  "./cubeDrawings/cube2.webp",
+  "./cubeDrawings/cube3.webp",
+  "./cubeDrawings/cube4.webp",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -31,9 +38,9 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${cads
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (cad, index) => `<img src="${cad}" alt="cad${index + 1}" />`
               )
               .join("")}
           </div>
