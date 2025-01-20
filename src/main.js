@@ -37,16 +37,16 @@ document.querySelector("#app").innerHTML = `
           <img src="./cadDrawings/cad.png" id="model1" alt="Model 1 Image">
         </div>
         <div id="images">
-          <a href="https://example.com/page1" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad1.png" target="_blank">
             <img src="./cadDrawings/cad1.png" alt="cube1" />
           </a>
-          <a href="https://example.com/page2" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad2.png" target="_blank">
             <img src="./cadDrawings/cad2.png" alt="cube2" />
           </a>
-          <a href="https://example.com/page3" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad3.png" target="_blank">
             <img src="./cadDrawings/cad3.png" alt="cube3" />
           </a>
-          <a href="https://example.com/page4" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad4.png" target="_blank">
             <img src="./cadDrawings/cad4.png" alt="cube4" />
           </a>
         </div>
