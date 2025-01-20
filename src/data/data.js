@@ -2,7 +2,7 @@
 
 const data = {
     name: "Catherine Carbert",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    bio: "Bachelor of Design in City Innovation student at the University of Calgary",
     contact: {
         email: "catherine.carbert@ucalgary.ca",
         phone: "403-807-7412",
