@@ -34,16 +34,22 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Project 1: Cadavre Exquis
         <div class="three-model">
-          <div id="model1"></div>
+          <img src="./cadDrawings/cad.png" id="model1" alt="Model 1 Image">
         </div>
-        <div id="images-description">
-          <div id="images">
-            ${cads
-              .map(
-                (cad, index) => `<img src="${cad}" alt="cad${index + 1}" />`
-              )
-              .join("")}
-          </div>
+        <div id="images">
+          <a href="https://example.com/page1" target="_blank">
+            <img src="./cadDrawings/cad1.png" alt="cube1" />
+          </a>
+          <a href="https://example.com/page2" target="_blank">
+            <img src="./cadDrawings/cad2.png" alt="cube2" />
+          </a>
+          <a href="https://example.com/page3" target="_blank">
+            <img src="./cadDrawings/cad3.png" alt="cube3" />
+          </a>
+          <a href="https://example.com/page4" target="_blank">
+            <img src="./cadDrawings/cad4.png" alt="cube4" />
+          </a>
+        </div>
           <h4 id="description">This Cadavre tackles the question of what it means to be a human. The collage highlights some of humanity's most significant creations, events, and scenes, aiming to represent what makes up a human. While each individual is a miracle of life themselves, the meaning of a human is to be everything we have ever seen, done, created, whether good or bad.</h4>
         </div>
       </div>
@@ -102,6 +108,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+//createThreeScene("#model1", "/3DModels/project1/cube.obj");
+//createThreeScene("#model2", "/3DModels/project2/tree.obj");
+//createThreeScene("#model3", "/3DModels/project3/cottage.obj");
