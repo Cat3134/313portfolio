@@ -3,10 +3,12 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cads = [
-  "./cadDrawings/cad1.png",
-  "./cadDrawings/cad2.png",
-  "./cadDrawings/cad3.png",
-  "./cadDrawings/cad4.png",
+  "./cadavrePDFS/cad1.png",
+  "./cadavrePDFS/cad2.png",
+  "./cadavrePDFS/cad3.png",
+  "./cadavrePDFS/cad4.png",
+  "./cadavrePDFS/cad5.png",
+  "./cadavrePDFS/cad6.png",
 ];
 
 const cubes = [
@@ -32,25 +34,29 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Cadavre Exquis
-      </br>
-      Project 1
+      Cadavre Exquis: Project 1
         <div class="three-model">
-          <img src="./cadDrawings/cad.png" id="model1" alt="Model 1 Image">
+          <img src="./cadavrePDFS/cad.png" id="model1" alt="Model 1 Image">
         </div>
         <div id="images-description">
           <div id="images">
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad1.png" target="_blank">
-            <img src="./cadDrawings/cad1.png" alt="cube1" />
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad1.png" target="_blank">
+            <img src="./cadavrePDFS/cad1.png" alt="cube1" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad2.png" target="_blank">
-            <img src="./cadDrawings/cad2.png" alt="cube2" />
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad2.png" target="_blank">
+            <img src="./cadavrePDFS/cad2.png" alt="cube2" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad3.png" target="_blank">
-            <img src="./cadDrawings/cad3.png" alt="cube3" />
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad3.png" target="_blank">
+            <img src="./cadavrePDFS/cad3.png" alt="cube3" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadDrawings/cad4.png" target="_blank">
-            <img src="./cadDrawings/cad4.png" alt="cube4" />
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
+            <img src="./cadavrePDFS/cad4.png" alt="cube4" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
+            <img src="./cadavrePDFS/cad5.png" alt="cube4" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
+            <img src="./cadavrePDFS/cad6.png" alt="cube4" />
           </a>
           </div>
 

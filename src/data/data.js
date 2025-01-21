@@ -7,7 +7,7 @@ const data = {
         email: "catherine.carbert@ucalgary.ca",
         phone: "403-807-7412",
         linkedin: "https://www.linkedin.com/",
-        github: "https://www.github.com/",
+        github: "https://www.github.com/Cat3134",
     }
 }
 
