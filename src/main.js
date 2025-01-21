@@ -36,27 +36,28 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis: Project 1
         <div class="three-model">
+        <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad.png" target="_blank">
           <img src="./cadavrePDFS/cad.png" id="model1" alt="Model 1 Image">
         </div>
         <div id="images-description">
           <div id="images">
           <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad1.png" target="_blank">
-            <img src="./cadavrePDFS/cad1.png" alt="cube1" />
+            <img src="./cadavrePDFS/cad1.png" alt="cad1" />
           </a>
           <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad2.png" target="_blank">
-            <img src="./cadavrePDFS/cad2.png" alt="cube2" />
+            <img src="./cadavrePDFS/cad2.png" alt="cad2" />
           </a>
           <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad3.png" target="_blank">
-            <img src="./cadavrePDFS/cad3.png" alt="cube3" />
+            <img src="./cadavrePDFS/cad3.png" alt="cad3" />
           </a>
           <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
-            <img src="./cadavrePDFS/cad4.png" alt="cube4" />
+            <img src="./cadavrePDFS/cad4.png" alt="cad4" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
-            <img src="./cadavrePDFS/cad5.png" alt="cube4" />
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad5.png" target="_blank">
+            <img src="./cadavrePDFS/cad5.png" alt="cad5" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
-            <img src="./cadavrePDFS/cad6.png" alt="cube4" />
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad6.png" target="_blank">
+            <img src="./cadavrePDFS/cad6.png" alt="cad6" />
           </a>
           </div>
 
