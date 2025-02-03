@@ -11,7 +11,7 @@ const cads = [
   "./cadavrePDFS/cad6.png",
 ];
 
-const cubes = [
+const interops = [
   "./interopPDFS/interop1.pdf",
   "./interopPDFS/interop2.pdf",
   "./interopPDFS/interop3.pdf",
