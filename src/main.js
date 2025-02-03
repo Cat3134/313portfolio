@@ -19,14 +19,14 @@ const cubes = [
 ];
 
 const interops = [
-  "./interopPDFS/interop1.pdf",
-  "./interopPDFS/interop2.pdf",
-  "./interopPDFS/interop3.pdf",
-  "./interopPDFS/interop4.pdf",
-  "./interopPDFS/interop5.pdf",
-  "./interopPDFS/interop6.pdf",
-  "./interopPDFS/interop7.pdf",
-  "./interopPDFS/interop8.pdf",
+  "./interPDFS/interop1.png",
+  "./interPDFS/interop2.png",
+  "./interPDFS/interop3.png",
+  "./interPDFS/interop4.png",
+  "./interPDFS/interop5.png",
+  "./interPDFS/interop6.png",
+  "./interPDFS/interop7.png",
+  "./interPDFS/interop8.png",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -122,5 +122,5 @@ document.querySelector("#app").innerHTML = `
 
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model2", "/3DModels/project4/squirtle.obj");
 createThreeScene("#model3", "/3DModels/project3/cottage.obj");
