@@ -66,7 +66,7 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Assignment 2: Interoperability
+      Model 2
         <div class="three-model">
           <div id="model2"></div>
         </div>
