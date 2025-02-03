@@ -106,8 +106,8 @@ h1 {
 
 img {
   /* Image dimensions and margin */
-  height: 154.545px;
-  width: 154.545px;
+  height: 155px;
+  width: 155px;
   margin: 0.5em;
 }
 
@@ -124,13 +124,13 @@ img {
   /* Row layout for images */
   display: flex;
   align-items: center;
-  align-items: center;
   position: relative;
 }
 
 #description {
   /* Center description content */
   display: flex;
+  justify-content: center;
   align-items: center;
   height: 4em;
   width: 35em;
