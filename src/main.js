@@ -18,11 +18,15 @@ const cubes = [
   "./cubeDrawings/cube4.webp",
 ];
 
-const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+const interops = [
+  "./interopPDFS/interop1.pdf",
+  "./interopPDFS/interop2.pdf",
+  "./interopPDFS/interop3.pdf",
+  "./interopPDFS/interop4.pdf",
+  "./interopPDFS/interop5.pdf",
+  "./interopPDFS/interop6.pdf",
+  "./interopPDFS/interop7.pdf",
+  "./interopPDFS/interop8.pdf",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -66,16 +70,16 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Model 2
+      Interoperability: Project 02
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
+            ${interops
               .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
+                (interops, index) =>
+                  `<img src="${interops}" alt="interop${index + 1}" />`
               )
               .join("")}
           </div>
