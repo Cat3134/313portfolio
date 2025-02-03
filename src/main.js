@@ -78,7 +78,7 @@ document.querySelector("#app").innerHTML = `
           <div id="images">
             ${interops
               .map(
-                (trees, index) =>
+                (interops, index) =>
                   `<img src="${interops}" alt="inter${inter + 1}" />`
               )
               .join("")}
