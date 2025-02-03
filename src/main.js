@@ -83,7 +83,7 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description">Project 02, Interoperability, explores the interoperability between different 3D modeling softwares. The objective of this assignment is to analyze different geometry forms, and how they are affected when moved between softwares.</h4>
         </div>
       </div>
 
