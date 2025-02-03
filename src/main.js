@@ -11,15 +11,11 @@ const cads = [
   "./cadavrePDFS/cad6.png",
 ];
 
-const interops = [
-  "./interopPDFS/interop1.pdf",
-  "./interopPDFS/interop2.pdf",
-  "./interopPDFS/interop3.pdf",
-  "./interopPDFS/interop4.pdf",
-  "./interopPDFS/interop5.pdf",
-  "./interopPDFS/interop6.pdf",
-  "./interopPDFS/interop7.pdf",
-  "./interopPDFS/interop8.pdf",
+const cubes = [
+  "./cubeDrawings/cube1.webp",
+  "./cubeDrawings/cube2.webp",
+  "./cubeDrawings/cube3.webp",
+  "./cubeDrawings/cube4.webp",
 ];
 
 const trees = [
@@ -70,16 +66,16 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Interoperability: Project 02
+      Interoperability: Project 01
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${interops
+            ${trees
               .map(
-                (interops, index) =>
-                  `<img src="${interops}" alt="inter${inter + 1}" />`
+                (trees, index) =>
+                  `<img src="${trees}" alt="tree${index + 1}" />`
               )
               .join("")}
           </div>
