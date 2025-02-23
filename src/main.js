@@ -40,8 +40,8 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis: Project 1
         <div class="three-model">
-        <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad.png" target="_blank">
-          <img src="./cadavrePDFS/cad.png" id="model1" alt="Model 1 Image">
+        <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cadgood.png" target="_blank">
+          <img src="./cadavrePDFS/cadgood.png" id="model1" alt="Model 1 Image">
         </div>
         <div id="images-description">
           <div id="images">
