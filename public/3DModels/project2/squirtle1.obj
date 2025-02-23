@@ -1,7 +1,6 @@
 # Blender 4.3.2
 # www.blender.org
 mtllib squirtle1.mtl
-use mtl TrunkMaterial
 o head.006
 v -5.865498 -2.067678 5.376313
 v -6.100653 -2.240770 11.588096

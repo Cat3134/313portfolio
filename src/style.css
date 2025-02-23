@@ -94,10 +94,18 @@ h1 {
 }
 
 #model1,
-#model2,
+#model2 {
+  height: 350px;
+  width: 513.626px;
+  margin-right: 3em;
+  margin-left: 6em;
+  margin-bottom: 2em;
+  border: 1px solid rgb(255, 250, 240);
+}
+
 #model3 {
-  height: 700px;
-  width: 1027.272px;
+  height: 350px;
+  width: 513.626px;
   margin-right: 3em;
   margin-left: 6em;
   margin-bottom: 2em;
