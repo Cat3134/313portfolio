@@ -11,13 +11,6 @@ const cads = [
   "./cadavrePDFS/cad6.png",
 ];
 
-const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
-];
-
 const interops = [
   "./interPDFS/interop1.png",
   "./interPDFS/interop2.png",
@@ -27,6 +20,36 @@ const interops = [
   "./interPDFS/interop6.png",
   "./interPDFS/interop7.png",
   "./interPDFS/interop8.png",
+];
+
+const eyes = [
+  "./eyePDFS/Eye1.png",
+  "./eyePDFS/Eye2.png",
+  "./eyePDFS/Eye3.png",
+  "./eyePDFS/Eye4.png",
+  "./eyePDFS/Eye5.png",
+  "./eyePDFS/Eye6.png",
+  "./eyePDFS/Eye7.png",
+];
+
+const places = [
+  "./placePNGS/place1.png",
+  "./placePNGS/place2.png",
+  "./placePNGS/place3.png",
+  "./placePNGS/place4.png",
+  "./placePNGS/place5.png",
+  "./placePNGS/place6.png",
+  "./placePNGS/place7.png",
+  "./placePNGS/place8.png",
+  "./placePNGS/place9.png",
+  "./placePNGS/place10.png",
+];
+
+const games = [
+  "./gamePNGS/game1.png",
+  "./gamePNGS/game2.png",
+  "./gamePNGS/game3.png",
+  "./gamePNGS/game4.png",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -87,7 +110,24 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-      ${/* Model 3 commented out
+            <div id="project-row">
+      Model 3
+        <div class="three-model">
+          <div id="model3"></div>
+        </div>
+        <div id="images-description">
+          <div id="images">
+            ${eyes
+              .map(
+                (eyes, index) =>
+                 `<img src="${eyes}" alt="eye${index + 1}" />`
+              )
+              .join("")}
+          </div>
+          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
+        </div>
+      </div>
+
       <div id="project-row">
       Model 3
         <div class="three-model">
@@ -95,17 +135,34 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${places
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (places, index) =>
+                 `<img src="${places}" alt="place${index + 1}" />`
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
         </div>
       </div>
-      */""}
-    </section>
+
+      <div id="project-row">
+      Model 3
+        <div class="three-model">
+          <div id="model3"></div>
+        </div>
+        <div id="images-description">
+          <div id="images">
+            ${games
+              .map(
+                (eyes, index) =>
+                 `<img src="${games}" alt="game${index + 1}" />`
+              )
+              .join("")}
+          </div>
+          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
+        </div>
+      </div>
 
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
@@ -123,4 +180,4 @@ document.querySelector("#app").innerHTML = `
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
 createThreeScene("#model2", "/3DModels/project2/objects.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+createThreeScene("#model3", "/3DModels/project3/eye good.obj");
