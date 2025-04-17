@@ -11,13 +11,6 @@ const cads = [
   "./cadavrePDFS/cad6.png",
 ];
 
-const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
-];
-
 const interops = [
   "./interPDFS/interop1.png",
   "./interPDFS/interop2.png",
@@ -27,6 +20,16 @@ const interops = [
   "./interPDFS/interop6.png",
   "./interPDFS/interop7.png",
   "./interPDFS/interop8.png",
+];
+
+const eyes = [
+  "./eyePDFS/eye1.png",
+  "./eyePDFS/eye2.png",
+  "./eyePDFS/eye3.png",
+  "./eyePDFS/eye4.png",
+  "./eyePDFS/eye5.png",
+  "./eyePDFS/eye6.png",
+  "./eyePDFS/eye7.png",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -87,7 +90,6 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-      ${/* Model 3 commented out
       <div id="project-row">
       Model 3
         <div class="three-model">
@@ -95,17 +97,16 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${eyes
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (eyes, index) =>
+                 `<img src="${eyes}" alt="eye${index + 1}" />`
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
         </div>
       </div>
-      */""}
-    </section>
 
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
@@ -123,4 +124,4 @@ document.querySelector("#app").innerHTML = `
 // Create three.js scenes for each
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
 createThreeScene("#model2", "/3DModels/project2/objects.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+createThreeScene("#model3", "/3DModels/project3/eye good.obj");
