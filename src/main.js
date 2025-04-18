@@ -156,7 +156,7 @@ document.querySelector("#app").innerHTML = `
       Placemaking: Project 04
         <div class="three-model">
           <a href="https://313portfolio-bay.vercel.app/placePNGS/placegood.png" target="_blank">
-            <img src="./placePNGS/placegood.png" alt="placegood" />
+            <img src="./placePNGS/placegood.png" id="model1" alt="Model 1 Image">
           </a>
           </div>
         <div id="images-description">
