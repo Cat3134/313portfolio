@@ -38,12 +38,16 @@ const places = [
   "./placePNGS/place3.png",
   "./placePNGS/place4.png",
   "./placePNGS/place5.png",
+];
+
+const places2 = [
   "./placePNGS/place6.png",
   "./placePNGS/place7.png",
   "./placePNGS/place8.png",
   "./placePNGS/place9.png",
   "./placePNGS/place10.png",
 ];
+
 
 const games = [
   "./gamePNGS/game1.png",
@@ -97,8 +101,8 @@ document.querySelector("#app").innerHTML = `
         <div class="three-model">
           <div id="model2"></div>
         </div>
-        <div id="images-description">
-          <div id="images">
+        <div id="images-description2">
+          <div id="images2">
             ${interops
               .map(
                 (interops, index) =>
@@ -110,8 +114,8 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-            <div id="project-row">
-      Model 3
+      <div id="project-row">
+      Object Creation: Project 03
         <div class="three-model">
           <div id="model3"></div>
         </div>
@@ -129,9 +133,10 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Model 3
+      Placemaking: Project 04
         <div class="three-model">
-          <div id="model3"></div>
+          <div id="model1"></div>
+          <div id="./placePNGS/placegood.png"></div>
         </div>
         <div id="images-description">
           <div id="images">
@@ -142,12 +147,27 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
         </div>
       </div>
 
       <div id="project-row">
-      Model 3
+        <div class="three-model">
+        </div>
+        <div id="images-description">
+          <div id="images">
+            ${places2
+              .map(
+                (places2, index) =>
+                 `<img src="${places2}" alt="place2${index + 1}" />`
+              )
+              .join("")}
+          </div>
+          <h4 id="description">Placemaking, Project 04, used Project 01's Cadavre to inspire a placemaking pavilion.</h4>
+        </div>
+      </div>
+
+      <div id="project-row">
+      Metaverse Creation: Project 05
         <div class="three-model">
           <div id="model3"></div>
         </div>
@@ -155,7 +175,7 @@ document.querySelector("#app").innerHTML = `
           <div id="images">
             ${games
               .map(
-                (eyes, index) =>
+                (games, index) =>
                  `<img src="${games}" alt="game${index + 1}" />`
               )
               .join("")}
@@ -178,6 +198,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
+createThreeScene("#model1", "/3DModels/project1/placeobj.obj");
 createThreeScene("#model2", "/3DModels/project2/objects.obj");
 createThreeScene("#model3", "/3DModels/project3/eye good.obj");
