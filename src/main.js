@@ -70,13 +70,13 @@ document.querySelector("#app").innerHTML = `
               </div>
         <div id="images-description">
           <div id="images">
-          <a href="http://localhost:5174/cadavrePDFS/cad01.png" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad01.png" target="_blank">
             <img src="./cadavrePDFS/cad01.png" alt="cad01" />
           </a>
-          <a href="http://localhost:5174/cadavrePDFS/cad02.png" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad02.png" target="_blank">
             <img src="./cadavrePDFS/cad02.png" alt="cad02" />
           </a>
-          <a href="http://localhost:5174/cadavrePDFS/cad02.png" target="_blank">
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad03.png" target="_blank">
             <img src="./cadavrePDFS/cad03.png" alt="cad03" />
           </a>
           </div>
