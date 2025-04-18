@@ -3,12 +3,9 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cads = [
-  "./cadavrePDFS/cad1.png",
-  "./cadavrePDFS/cad2.png",
-  "./cadavrePDFS/cad3.png",
-  "./cadavrePDFS/cad4.png",
-  "./cadavrePDFS/cad5.png",
-  "./cadavrePDFS/cad6.png",
+  "./cadavrePDFS/cad01.png",
+  "./cadavrePDFS/cad02.png",
+  "./cadavrePDFS/cad03.png",
 ];
 
 const interops = [
@@ -67,34 +64,25 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis: Project 1
         <div class="three-model">
-        <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cadgood.png" target="_blank">
-          <img src="./cadavrePDFS/cadgood.png" id="model1" alt="Model 1 Image">
-        </div>
+          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cadgood.png" target="_blank">
+            <img src="./cadavrePDFS/cadgood.png" id="model1" alt="Model 1 Image">
+          </a>
+              </div>
         <div id="images-description">
           <div id="images">
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad1.png" target="_blank">
-            <img src="./cadavrePDFS/cad1.png" alt="cad1" />
+          <a href="http://localhost:5174/cadavrePDFS/cad01.png" target="_blank">
+            <img src="./cadavrePDFS/cad01.png" alt="cad01" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad2.png" target="_blank">
-            <img src="./cadavrePDFS/cad2.png" alt="cad2" />
+          <a href="http://localhost:5174/cadavrePDFS/cad02.png" target="_blank">
+            <img src="./cadavrePDFS/cad02.png" alt="cad02" />
           </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad3.png" target="_blank">
-            <img src="./cadavrePDFS/cad3.png" alt="cad3" />
-          </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad4.png" target="_blank">
-            <img src="./cadavrePDFS/cad4.png" alt="cad4" />
-          </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad5.png" target="_blank">
-            <img src="./cadavrePDFS/cad5.png" alt="cad5" />
-          </a>
-          <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad6.png" target="_blank">
-            <img src="./cadavrePDFS/cad6.png" alt="cad6" />
+          <a href="http://localhost:5174/cadavrePDFS/cad02.png" target="_blank">
+            <img src="./cadavrePDFS/cad03.png" alt="cad03" />
           </a>
           </div>
-
-          <h4 id="description">This Cadavre tackles the question of what it means to be a human. The collage highlights some of humanity's most significant creations, events, and scenes, aiming to represent what makes up a human. While each individual is a miracle of life themselves, the meaning of a human is to be everything we have ever seen, done, created, whether good or bad.</h4>
+      <h4 id="description">This Cadavre tackles the question of what it means to be a human. The collage highlights some of humanity's most significant creations, events, and scenes, aiming to represent what makes up a human. While each individual is a miracle of life themselves, the meaning of a human is to be everything we have ever seen, done, created, whether good or bad.</h4>
         </div>
-      </div>
+    </div>
 
       <div id="project-row">
       Interoperability: Project 02
@@ -103,12 +91,31 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${interops
-              .map(
-                (interops, index) =>
-                  `<img src="${interops}" alt="interop${index + 1}" />`
-              )
-              .join("")}
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop1.png" target="_blank">
+            <img src="./interPDFS/interop1.png" alt="interop1" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop2.png" target="_blank">
+            <img src="./interPDFS/interop2.png" alt="interop2" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop3.png" target="_blank">
+            <img src="./interPDFS/interop3.png" alt="interop3" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop4.png" target="_blank">
+            <img src="./interPDFS/interop4.png" alt="interop4" />
+          </a>
+          </div>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop5.png" target="_blank">
+            <img src="./interPDFS/interop5.png" alt="interop5" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop6.png" target="_blank">
+            <img src="./interPDFS/interop6.png" alt="interop6" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop7.png" target="_blank">
+            <img src="./interPDFS/interop7.png" alt="interop7" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/interPDFS/interop8.png" target="_blank">
+            <img src="./interPDFS/interop8.png" alt="interop8" />
+          </a>
           </div>
           <h4 id="description">Project 02, Interoperability, explores the interoperability between different 3D modeling softwares. The objective of this assignment is to analyze different geometry forms, and how they are affected when moved between softwares.</h4>
         </div>
@@ -129,8 +136,7 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">Project 01's Cadavre aimed to tackle the question of “What does it mean to be human?”  Using this, the created object aimed to include aspects of human history, while incorporating an “all-seeing and all-knowing” eye. The Eye of Civilization is an ancient artifact containing all knowledge, even knowledge that has been lost to time.
-</h4>
+          <h4 id="description">Project 01's Cadavre aimed to tackle the question of “What does it mean to be human?”  Using this, the created object aimed to include aspects of human history, while incorporating an “all-seeing and all-knowing” eye. The Eye of Civilization is an ancient artifact containing all knowledge, even knowledge that has been lost to time.</h4>
         </div>
       </div>
 
