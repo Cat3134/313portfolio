@@ -155,10 +155,11 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Placemaking: Project 04
         <div class="three-model">
+          <div id="model4"></div>
           <a href="https://313portfolio-bay.vercel.app/placePNGS/placegood.png" target="_blank">
             <img src="./placePNGS/placegood.png" id="model1" alt="Model 1 Image">
           </a>
-          </div>
+        </div>
         <div id="images-description">
           <div id="images">
           <a href="https://313portfolio-bay.vercel.app/placePNGS/place1.png" target="_blank">
@@ -237,6 +238,7 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/place.obj");
+createThreeScene("#model1", "/3DModels/project1/cube.obj");
 createThreeScene("#model2", "/3DModels/project2/objects.obj");
 createThreeScene("#model3", "/3DModels/project3/eye good.obj");
+createThreeScene("#model4", "/3DModels/project4/place.obj");
