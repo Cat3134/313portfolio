@@ -82,18 +82,26 @@ h1 {
   /* Row layout for projects */
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  justify-content: center;
   padding-top: 5em;
 }
 
 .three-model {
   /* Styling for project models */
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 
-#model1,
+#model1 {
+  height: 350px;
+  width: 513.626px;
+  margin-right: 3em;
+  margin-left: 6em;
+  margin-bottom: 2em;
+  border: 1px solid rgb(255, 250, 240);
+}
+
 #model2 {
   height: 350px;
   width: 513.626px;
@@ -129,29 +137,6 @@ img {
 }
 
 #images-row {
-  /* Row layout for images */
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-img2 {
-  /* Image dimensions and margin */
-  height: 155px;
-  width: 250px;
-  margin: 0.5em;
-}
-
-#images2 {
-  /* Center image container */
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  height: 8em;
-  margin-bottom: 2em;
-}
-
-#images-row2 {
   /* Row layout for images */
   display: flex;
   align-items: center;

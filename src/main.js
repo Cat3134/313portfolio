@@ -101,8 +101,8 @@ document.querySelector("#app").innerHTML = `
         <div class="three-model">
           <div id="model2"></div>
         </div>
-        <div id="images-description2">
-          <div id="images2">
+        <div id="images-description">
+          <div id="images">
             ${interops
               .map(
                 (interops, index) =>
@@ -114,6 +114,7 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
+      
       <div id="project-row">
       Object Creation: Project 03
         <div class="three-model">
@@ -128,15 +129,15 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
+          <h4 id="description">Project 01's Cadavre aimed to tackle the question of “What does it mean to be human?”  Using this, the created object aimed to include aspects of human history, while incorporating an “all-seeing and all-knowing” eye. The Eye of Civilization is an ancient artifact containing all knowledge, even knowledge that has been lost to time.
+</h4>
         </div>
       </div>
 
       <div id="project-row">
       Placemaking: Project 04
         <div class="three-model">
-          <div id="model1"></div>
-          <div id="./placePNGS/placegood.png"></div>
+          <img src="./placePNGS/placegood.png" id="model1" alt="Model 1 Image">
         </div>
         <div id="images-description">
           <div id="images">
@@ -162,14 +163,14 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">Placemaking, Project 04, used Project 01's Cadavre to inspire a placemaking pavilion.</h4>
+          <h4 id="description">Derived from Julia’s Project 01 Cadavre, the form takes influence from the art deco period where it emphasizes the underlying light within the brutality within the world. Pulling elements from the exquisite corpse such as the stained glass and geometrical symmetry, allowed us to interconnect the art deco style with current design trends to create our inspired temple.</h4>
         </div>
       </div>
 
       <div id="project-row">
       Metaverse Creation: Project 05
         <div class="three-model">
-          <div id="model3"></div>
+          <img src="./gamePNGS/gamegood.png" id="model1" alt="Model 1 Image">
         </div>
         <div id="images-description">
           <div id="images">
@@ -180,7 +181,7 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">Project 3, Object Creation, uses project 1's Cadavre to create a fictional object.</h4>
+          <h4 id="description">Inspired by the Cadavre from Project 01, "Civigaze" is a metaverse showcasing the semester's projects. The metaverse is made up of 5 islands floating in space, connected by bridges made of eyes. Each island contains one exhibit, showing projects 01 through 05, along with our final studio outcome.</h4>
         </div>
       </div>
 
@@ -198,6 +199,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/placeobj.obj");
+createThreeScene("#model1", "/3DModels/project1/place.obj");
 createThreeScene("#model2", "/3DModels/project2/objects.obj");
 createThreeScene("#model3", "/3DModels/project3/eye good.obj");
