@@ -35,16 +35,12 @@ const places = [
   "./placePNGS/place3.png",
   "./placePNGS/place4.png",
   "./placePNGS/place5.png",
-];
-
-const places2 = [
   "./placePNGS/place6.png",
   "./placePNGS/place7.png",
   "./placePNGS/place8.png",
   "./placePNGS/place9.png",
   "./placePNGS/place10.png",
 ];
-
 
 const games = [
   "./gamePNGS/game1.png",
@@ -67,7 +63,7 @@ document.querySelector("#app").innerHTML = `
           <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cadgood.png" target="_blank">
             <img src="./cadavrePDFS/cadgood.png" id="model1" alt="Model 1 Image">
           </a>
-              </div>
+          </div>
         <div id="images-description">
           <div id="images">
           <a href="https://313portfolio-bay.vercel.app/cadavrePDFS/cad01.png" target="_blank">
@@ -129,12 +125,28 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${eyes
-              .map(
-                (eyes, index) =>
-                 `<img src="${eyes}" alt="eye${index + 1}" />`
-              )
-              .join("")}
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye1.png" target="_blank">
+            <img src="./eyePDFS/Eye1.png" alt="Eye1" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye2.png" target="_blank">
+            <img src="./eyePDFS/Eye2.png" alt="Eye2" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye3.png" target="_blank">
+            <img src="./eyePDFS/Eye3.png" alt="Eye3" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye4.png" target="_blank">
+            <img src="./eyePDFS/Eye4.png" alt="Eye4" />
+          </a>
+          </div>
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye5.png" target="_blank">
+            <img src="./eyePDFS/Eye5.png" alt="Eye5" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye6.png" target="_blank">
+            <img src="./eyePDFS/Eye6.png" alt="Eye6" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/eyePDFS/Eye7.png" target="_blank">
+            <img src="./eyePDFS/Eye7.png" alt="Eye7" />
+          </a>
           </div>
           <h4 id="description">Project 01's Cadavre aimed to tackle the question of “What does it mean to be human?”  Using this, the created object aimed to include aspects of human history, while incorporating an “all-seeing and all-knowing” eye. The Eye of Civilization is an ancient artifact containing all knowledge, even knowledge that has been lost to time.</h4>
         </div>
@@ -143,31 +155,43 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Placemaking: Project 04
         <div class="three-model">
-          <img src="./placePNGS/placegood.png" id="model1" alt="Model 1 Image">
-        </div>
-        <div id="images-description">
-          <div id="images">
-            ${places
-              .map(
-                (places, index) =>
-                 `<img src="${places}" alt="place${index + 1}" />`
-              )
-              .join("")}
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/placegood.png" target="_blank">
+            <img src="./placePNGS/placegood.png" alt="placegood" />
+          </a>
           </div>
-        </div>
-      </div>
-
-      <div id="project-row">
-        <div class="three-model">
-        </div>
         <div id="images-description">
           <div id="images">
-            ${places2
-              .map(
-                (places2, index) =>
-                 `<img src="${places2}" alt="place2${index + 1}" />`
-              )
-              .join("")}
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place1.png" target="_blank">
+            <img src="./placePNGS/place1.png" alt="place1" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place2.png" target="_blank">
+            <img src="./placePNGS/place2.png" alt="place2" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place3.png" target="_blank">
+            <img src="./placePNGS/place3.png" alt="place3" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place4.png" target="_blank">
+            <img src="./placePNGS/place4.png" alt="place4" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place5.png" target="_blank">
+            <img src="./placePNGS/place5.png" alt="place5" />
+          </a>
+          </div>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place6.png" target="_blank">
+            <img src="./placePNGS/place6.png" alt="place6" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place7.png" target="_blank">
+            <img src="./placePNGS/place7.png" alt="place7" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place8.png" target="_blank">
+            <img src="./placePNGS/place8.png" alt="place8" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place9.png" target="_blank">
+            <img src="./placePNGS/place9.png" alt="place9" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/placePNGS/place10.png" target="_blank">
+            <img src="./placePNGS/place10.png" alt="place10" />
+          </a>
           </div>
           <h4 id="description">Derived from Julia’s Project 01 Cadavre, the form takes influence from the art deco period where it emphasizes the underlying light within the brutality within the world. Pulling elements from the exquisite corpse such as the stained glass and geometrical symmetry, allowed us to interconnect the art deco style with current design trends to create our inspired temple.</h4>
         </div>
@@ -176,16 +200,24 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Metaverse Creation: Project 05
         <div class="three-model">
-          <img src="./gamePNGS/gamegood.png" id="model1" alt="Model 1 Image">
-        </div>
+          <a href="https://313portfolio-bay.vercel.app/gamePNGS/gamegood.png" target="_blank">
+            <img src="./gamePNGS/gamegood.png" id="model1" alt="Model 1 Image">
+          </a>
+          </div>
         <div id="images-description">
           <div id="images">
-            ${games
-              .map(
-                (games, index) =>
-                 `<img src="${games}" alt="game${index + 1}" />`
-              )
-              .join("")}
+          <a href="https://313portfolio-bay.vercel.app/gamePNGS/game1.png" target="_blank">
+            <img src="./gamePNGS/game1.png" alt="game1" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/gamePNGS/game2.png" target="_blank">
+            <img src="./gamePNGS/game2.png" alt="game2" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/gamePNGS/game3.png" target="_blank">
+            <img src="./gamePNGS/game3.png" alt="game3" />
+          </a>
+          <a href="https://313portfolio-bay.vercel.app/gamePNGS/game4.png" target="_blank">
+            <img src="./gamePNGS/game4.png" alt="game4" />
+          </a>
           </div>
           <h4 id="description">Inspired by the Cadavre from Project 01, "Civigaze" is a metaverse showcasing the semester's projects. The metaverse is made up of 5 islands floating in space, connected by bridges made of eyes. Each island contains one exhibit, showing projects 01 through 05, along with our final studio outcome.</h4>
         </div>
